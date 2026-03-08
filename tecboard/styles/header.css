@@ -1,0 +1,33 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho--logo {
+    width: 210px;
+    height: 34px;
+}
+
+.cabecalho--darkWhiteMode {
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.cabecalho--input {
+    display: none;
+}
+
+.input--label {
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/darkmode-branco.svg");
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        margin: 0 auto 60px auto;
+        width: 1200px;
+    }
+}
